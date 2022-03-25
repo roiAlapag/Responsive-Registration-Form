@@ -18,6 +18,7 @@ body{
     background: #fff;
     padding: 25px 30px;
     border-radius:  5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 .container .title{
     font-size: 25px;
@@ -31,6 +32,7 @@ body{
     bottom: 0;
     height: 3px;
     width: 30px;
+    border-radius: 5px;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 .container form .user-details{
@@ -56,6 +58,8 @@ form .user-details .input-box{
     border: 1px solid #ccc;
     padding-left:  15px;
     font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
